@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Welcome to Our Landing Page</h1>
+      <p>Where great products come to shine!</p>
+      <a href="#features" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="feature">
+      <h2>Our Features</h2>
+      <p>Explore the amazing features that we offer.</p>
+    </div>
+    <!-- More feature content can go here -->
+  </section>
+
+  <section id="about">
+    <div class="about-content">
+      <h2>About Us</h2>
+      <p>Learn more about our company and mission.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-form">
+      <h2>Contact Us</h2>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Landing Page. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
