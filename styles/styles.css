@@ -1,0 +1,85 @@
+/* Reset de alguns estilos padrão */
+body,
+h1,
+h2,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f7fc; /* Cor de fundo geral */
+    color: #333; /* Cor do texto */
+}
+
+header {
+    background-color: #e8c8ff; /* Rosa mais claro para o cabeçalho */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #6f3682; /* Roxo para o título principal */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #6f3682; /* Roxo para os links */
+}
+
+main {
+    padding: 20px;
+    background-color: #f8f7fc; /* Cor de fundo para as seções */
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: #ffffff; /* Fundo branco para as seções */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+footer {
+    background-color: #6f3682; /* Roxo mais escuro para o rodapé */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para tornar a página responsiva */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
