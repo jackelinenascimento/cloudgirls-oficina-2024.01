@@ -11,12 +11,15 @@ ul {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f8f7fc; /* Cor de fundo geral */
-    color: #333; /* Cor do texto */
+    background-color: #f8f7fc;
+    /* Cor de fundo geral */
+    color: #333;
+    /* Cor do texto */
 }
 
 header {
-    background-color: #e8c8ff; /* Rosa mais claro para o cabeçalho */
+    background-color: #e8c8ff;
+    /* Rosa mais claro para o cabeçalho */
     padding: 20px;
     text-align: center;
 }
@@ -24,7 +27,8 @@ header {
 header h1 {
     font-size: 2em;
     margin-bottom: 10px;
-    color: #6f3682; /* Roxo para o título principal */
+    color: #6f3682;
+    /* Roxo para o título principal */
 }
 
 nav ul {
@@ -38,30 +42,48 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #6f3682; /* Roxo para os links */
+    color: #6f3682;
+    /* Roxo para os links */
 }
 
 main {
     padding: 20px;
-    background-color: #f8f7fc; /* Cor de fundo para as seções */
+    background-color: #f8f7fc;
+    /* Cor de fundo para as seções */
 }
 
 section {
     margin-bottom: 30px;
-    background-color: #ffffff; /* Fundo branco para as seções */
+    background-color: #ffffff;
+    /* Fundo branco para as seções */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
 }
 
 footer {
-    background-color: #6f3682; /* Roxo mais escuro para o rodapé */
+    background-color: #6f3682;
+    /* Roxo mais escuro para o rodapé */
     color: #fff;
     text-align: center;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.banner {
+    background-image: url(./img/ada-lovelace.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Estilos para tornar a página responsiva */
