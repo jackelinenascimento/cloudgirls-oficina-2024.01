@@ -64,6 +64,18 @@ footer {
     width: 100%;
 }
 
+.banner {
+  background-image: url(./img/ada.png);
+    background-size: cover;
+    height: 80vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Estilos para tornar a página responsiva */
 @media (max-width: 768px) {
     header {
