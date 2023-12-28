@@ -74,7 +74,7 @@ footer {
 }
 
 .banner {
-    background-image: url(./img/ada-lovelace.jpg);
+    background-image: url("./img/ada-lovelace.jpg");
     background-size: cover;
     background-position: center;
     height: 80vh;
