@@ -1,4 +1,4 @@
-# Meu Projeto
+# Oficina Primeiros Passos 
 
 ## Descrição
 Este é um projeto simples que visa demonstrar uma landing page básica usando HTML e CSS.
