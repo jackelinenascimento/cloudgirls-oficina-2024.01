@@ -11,7 +11,7 @@ ul {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f8f7fc;
+    background-color: #f2f2f2;
     /* Cor de fundo geral */
     color: #333;
     /* Cor do texto */
@@ -62,15 +62,6 @@ section {
     /* Sombra suave */
 }
 
-.image {
-    margin-top: 30px;
-    text-align: center;
-}
-
-.image img {
-    width: 90%;
-}
-
 footer {
     background-color: #6f3682;
     /* Roxo mais escuro para o rodapé */
@@ -83,7 +74,7 @@ footer {
 }
 
 .banner {
-    background-image: url("../img/ada-lovelace.jpg");
+    background-image: url("../img/nina-da-hora.png");
     background-size: cover;
     background-position: center;
     height: 80vh;
